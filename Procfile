@@ -1,0 +1,1 @@
+worker: python coins.py

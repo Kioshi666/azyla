@@ -1,0 +1,6 @@
+secmail
+requests
+Dick.py
+wget
+flask
+heroku3
