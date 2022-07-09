@@ -98,7 +98,7 @@ class App:
             emails = json.load(emails)
             print(f"{len(emails)} Accounts loaded")
             for account in emails:
-                self.client.device_Id = account["deviceId"]
+                self.client.device = account["device"]
                 self.client.headers["NDCDEVICEID"] = self.client.device_Id
                 self.generation(email = account["email"], password = account["password"])
 
